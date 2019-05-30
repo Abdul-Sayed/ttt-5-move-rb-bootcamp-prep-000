@@ -13,8 +13,8 @@ end
 
 def input_to_index(input)
   # Given input "1" - "9", convert to num 0 - 8
-  input = input.to_i - 1 
-  return input
+  position = input.to_i - 1 
+  return position
 end
 
 def move(board, position, char)
