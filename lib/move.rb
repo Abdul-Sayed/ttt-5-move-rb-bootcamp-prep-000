@@ -19,10 +19,6 @@ end
 
 def move(board, position, char = "X")
   # Outputs modified board array with char placed in specified position
-  if (char)
-    board[position] = char
-  else
-    board[position] = "X"
-  end
+  board[position] = char
   return board
 end
