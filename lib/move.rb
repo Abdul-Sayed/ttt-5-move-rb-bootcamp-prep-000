@@ -16,6 +16,7 @@ def input_to_index(input)
   input = input.to_i - 1 
 end
 
-def move
+def move(board, position, char)
+  # Outputs modified board with char places in specified position
   
 end
