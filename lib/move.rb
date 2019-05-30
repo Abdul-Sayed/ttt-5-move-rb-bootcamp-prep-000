@@ -17,7 +17,7 @@ def input_to_index(input)
   return position
 end
 
-def move(board, position, char)
+def move(board, position, char = "X")
   # Outputs modified board array with char placed in specified position
   if (char)
     board[position] = char
