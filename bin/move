@@ -16,8 +16,4 @@ index = input_to_index(input)
 
 move(board, index, char = "X")
 
-
-puts "enter your symbol X or O"
-
-char = gets.strip
-
+display_board(board)
